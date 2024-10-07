@@ -1,0 +1,27 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    afterEvaluate {
+        if (it.hasProperty('android') && it.android.namespace == null) {
+            def manifest = new XmlSlurper().parse(file(it.android.sourceSets.main.manifest.srcFile))
+            def packageName = manifest.@package.text()
+            print("Setting ${packageName} as android namespace\n")
+            android.namespace = packageName
+        }
+    }
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

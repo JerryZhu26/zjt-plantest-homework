@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="25" fill="none" viewBox="0 0 45 25">
+  <rect width="4" height="23" x="21" y="2" fill="#D1D1EF" rx="1"/>
+  <rect width="4" height="16" x="26" y="9" fill="#D1D1EF" rx="1"/>
+  <rect width="4" height="18" x="31" y="7" fill="#D1D1EF" rx="1"/>
+  <rect width="4" height="10" x="36" y="15" fill="#D1D1EF" rx="1"/>
+  <rect width="4" height="5" x="41" y="20" fill="#D1D1EF" rx="1"/>
+  <circle cx="8.5" cy="16.5" r="7.75" stroke="#D1D1EF" stroke-width="1.5"/>
+  <path fill="#D1D1EF" fill-rule="evenodd" d="M2 4.5a1 1 0 0 0-1 1v5.168a9.527 9.527 0 0 1 4-3.002V5.5a1 1 0 0 0-1-1H2Zm2.21 20.478A9.541 9.541 0 0 1 1 22.332V24a1 1 0 0 0 1 1h2c.072 0 .142-.008.21-.022ZM7 1a1 1 0 0 0-1 1v5.332a9.511 9.511 0 0 1 4-.214V2a1 1 0 0 0-1-1H7Zm5-1a1 1 0 0 0-1 1v6.332a9.486 9.486 0 0 1 4 2.24V1a1 1 0 0 0-1-1h-2Zm3 23.428A9.52 9.52 0 0 1 12.747 25H14a1 1 0 0 0 1-1v-.572ZM17 4a1 1 0 0 0-1 1v6.023a8.463 8.463 0 0 1 2 5.477 8.466 8.466 0 0 1-2 5.477V24a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2Z" clip-rule="evenodd"/>
+  <path stroke="#D1D1EF" stroke-linecap="round" stroke-width="1.5" d="M8.5 12v5m0 0h5"/>
+</svg>

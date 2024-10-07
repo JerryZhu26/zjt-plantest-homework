@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="473" fill="none" viewBox="0 0 390 473">
+    <g filter="url(#a)">
+        <path fill="#D3E8E6"
+              d="M136.5 89.788C49.149 65.59 14.039 53.053 0 14v457h404V127.002c-44.196-103.232-158.311-6.964-267.5-37.213Z"/>
+    </g>
+    <defs>
+        <filter id="a" width="420" height="473" x="-8" y="0" color-interpolation-filters="sRGB"
+                filterUnits="userSpaceOnUse">
+        </filter>
+    </defs>
+</svg>
